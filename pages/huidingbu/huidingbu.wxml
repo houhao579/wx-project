@@ -1,0 +1,14 @@
+<scroll-view scroll-y scroll-with-animation='true' scroll-top='{{ topNum }}'>
+ <view>1</view>
+ <view>1</view>
+ <view>1</view>
+ <view>1</view>
+ <view>1</view>
+ <view>1</view>
+ <view>1</view>
+ <view>1</view>
+ <view>1</view>
+ <view>1</view>
+</scroll-view>
+ 
+<view class='top' catchtap='returnTop'>顶部</view>

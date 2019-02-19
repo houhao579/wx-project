@@ -1,0 +1,29 @@
+<!--pages/hhh/hhh.wxml-->
+<view class='container'>
+  <!-- <image class="userinfo-avatar" src="../../images/1.jpg" mode="cover"></image> -->
+  <text bindtap='showText'>{{msg}}</text>
+  <!-- <view wx:for="{{list}}">{{item}}</view> -->
+  <!-- <view wx:if="{{show}}">{{msg}}</view> -->
+<template name="staffName">
+  <view>firstName:{{firstName}},lastName:{{lastName}}</view>
+</template> 
+
+<template is="staffName" data="{{...staffA}}"></template>
+<template is="staffName" data="{{...staffB}}"></template>
+<template is="staffName" data="{{...staffC}}"></template>
+
+<view bindtap='go'>gogo</view>
+<view>{{num}}</view>
+<view id="item{{id}}" bindtap='add'>add</view>
+<checkbox checked='{{true}}'></checkbox>
+</view>
+<button size='40' plain='true' loading='true' type=''>btn</button>
+<icon type='success'></icon>
+<icon type='search'></icon>
+<icon type='waiting' size='40'></icon>
+<radio checked="true" color='teal'></radio>
+<view>该4---3了</view>
+<view class='nal'>
+<text bindtap='tabs'>111111</text>
+</view>
+

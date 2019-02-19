@@ -1,0 +1,35 @@
+/* pages/huidingbu/huidingbu.wxss */
+page{
+ width: 100%;
+ height: 100%;
+}
+ 
+scroll-view{
+ height: 100%;
+ width: 100%;
+}
+ 
+view{
+ width: 100%;
+ height: 200px;
+ text-align: center;
+ line-height: 200px;
+ font-weight: 600;
+}
+ 
+view:nth-child(odd){
+ background-color: teal;
+}
+ 
+.top{
+ width: 50px;
+ height: 50px;
+ position: fixed;
+ right: 10px;
+ bottom: 10px;
+ z-index: 1;
+ background-color: purple;
+ color: teal;
+ text-align: center;
+ line-height: 50px;
+}

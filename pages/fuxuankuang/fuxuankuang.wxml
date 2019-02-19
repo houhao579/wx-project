@@ -1,0 +1,5 @@
+<block wx:for='{{ items }}'> 
+  <text data-index='{{ index }}' data-val='{{ item.value }}' catchtap='check'>{{ item.value }}</text>
+</block>
+
+

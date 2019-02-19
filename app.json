@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/paomadeng/paomadeng",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/hhh/hhh",
+    "pages/fuxuankuang/fuxuankuang",
+    "pages/huidingbu/huidingbu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#676a6d",
+    "navigationBarTitleText": "hhh",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#000",
+    "backgroundColorTop": "light",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#eff3f4",
+    "borderStyle": "#c395d3",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/home1.png",
+        "selectedIconPath": "./images/home2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "./images/logs1.png",
+        "selectedIconPath": "./images/logs2.png"
+      },
+      {
+        "pagePath": "pages/hhh/hhh",
+        "text": "hhh",
+        "iconPath": "./images/my1.png",
+        "selectedIconPath": "./images/my2.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+}
